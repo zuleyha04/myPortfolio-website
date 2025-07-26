@@ -10,7 +10,7 @@ Welcome to my personal portfolio! I'm Züleyha Akbaş, a computer engineering st
 
 ## 🌐 Live Preview
 
-[🔗 View the live site here](zuleyha.vercel.app)
+[🔗 View the live site here](https://zuleyha.vercel.app)
 
 ---
 
