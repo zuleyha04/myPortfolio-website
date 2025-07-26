@@ -36,27 +36,6 @@ Welcome to my personal portfolio! I'm Züleyha Akbaş, a computer engineering st
 
 ---
 
-## 📁 Project Structure
-
-src/
-│
-├── components/
-│ ├── Navbar.jsx
-│ ├── Hero.jsx
-│ ├── About.jsx
-│ ├── Skills.jsx
-│ ├── Projects.jsx
-│ ├── Contact.jsx
-│ └── ChatBox.jsx # Explore ✨ page
-│
-├── App.jsx
-├── main.jsx
-└── index.css
-
-
-
----
-
 ## 💻 Getting Started
 
 To run this project locally:
