@@ -7,12 +7,15 @@ export const ThemeToggle = () => {
 
   useEffect(() => {
     const storedTheme = localStorage.getItem("theme");
-    if (storedTheme === "dark") {
+
+    if (!storedTheme || storedTheme === "dark") {
+      // Eğer hiç tema seçilmemişse veya dark ise, karanlık modla başlat
       setIsDarkMode(true);
       document.documentElement.classList.add("dark");
+      localStorage.setItem("theme", "dark");
     } else {
-      localStorage.setItem("theme", "light");
       setIsDarkMode(false);
+      document.documentElement.classList.remove("dark");
     }
   }, []);
 
@@ -31,11 +34,11 @@ export const ThemeToggle = () => {
   return (
     <button
       onClick={toggleTheme}
-     className={cn(
-  "fixed max-sm:hidden top-2.5 right-5 z-50 p-2 rounded-full transition-colors duration-300",
-  "focus:outline-none"
-)}
-
+      className={cn(
+        "fixed max-sm:hidden top-2.5 right-5 z-50 p-2 rounded-full transition-colors duration-300",
+        "focus:outline-none"
+      )}
+      aria-label="Toggle theme"
     >
       {isDarkMode ? (
         <Sun className="h-6 w-6 text-yellow-300" />
