@@ -33,7 +33,7 @@ export const getBotResponse = (msg) => {
     return "Dart/Flutter, JavaScript (ES6+), C#, SQL Server, HTML/CSS, Python, Arduino ve Assembly ile projeler geliştiriyor. Firebase, React ve test araçlarında da deneyim sahibi.";
   }
 
-  if (q.includes("sosyal beceri") || q.includes("kişisel özellik") || q.includes("iletişim")) {
+  if (q.includes("sosyal beceri") || q.includes("kişisel özellik") || q.includes("takım")) {
     return "Takım çalışmasına yatkın, zaman yönetimi, etkili iletişim ve sunum yapma konularında kendini geliştiriyor.";
   }
 
