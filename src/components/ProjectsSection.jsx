@@ -6,7 +6,7 @@ const projects = [
     title: "Drobee – Your Digital Wardrobe",
     description:
       "An individual mobile app project that allows users to digitize their wardrobe, create outfits, and receive weather-based suggestions. Developed using Flutter, with Firebase and OpenWeatherMap API integrations.",
-    image: "public/projects/mocup.png",
+    image: "/projects/mocup.png",
     tags: ["Flutter", "Firebase", "API", "UI/UX" , "Project Ownership"],
     githubUrl: "https://github.com/zuleyha04/drobee",
   },
@@ -15,7 +15,7 @@ const projects = [
     title: "Dormitory Management System",
     description:
       "A desktop application developed in a team of 3 to manage dormitory student records. Built using C# and MSSQL, the system allows authorized staff to view, add, and update student data securely.",
-    image: "public/projects/2.png",
+    image: "/projects/2.png",
     tags: ["C#", "MSSQL", "Windows Form", "Team Project"],
     githubUrl: "#",
   },
@@ -24,7 +24,7 @@ const projects = [
     title: "Oto Satış – AI Vehicle Marketplace",
     description:
       "A web-based vehicle marketplace developed by a team of 4. Features AI-powered vehicle comparison, secure face recognition login, and chatbot support using Gemini API. Backend in Python/Flask, frontend in HTML/CSS/JS.",
-    image: "public/projects/3.2.png",
+    image: "/projects/3.2.png",
     tags: ["Python", "AI", "Face Recognition", "Team Project"],
     githubUrl: "https://github.com/Rtur2003/Gemini_Tool_Comparator",
   },
